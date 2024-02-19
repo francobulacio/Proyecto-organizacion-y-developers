@@ -1,0 +1,89 @@
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# node.js
+#
+node_modules/
+/node_modules/
+
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# This is the new sh**
+frontend/Open2Work/android/.gradle/file-system.probe
+frontend/Open2Work/android/.gradle/7.5.1/checksums/checksums.lock
+frontend/Open2Work/android/.gradle/7.5.1/executionHistory/executionHistory.bin
+frontend/Open2Work/android/.gradle/7.5.1/executionHistory/executionHistory.lock
+frontend/Open2Work/android/.gradle/7.5.1/fileHashes/fileHashes.bin
+frontend/Open2Work/android/.gradle/7.5.1/fileHashes/fileHashes.lock
+frontend/Open2Work/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+frontend/Open2Work/android/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties
+frontend/Open2Work/android/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml
+frontend/Open2Work/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml
+frontend/Open2Work/android/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+frontend/Open2Work/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+frontend/Open2Work/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml
+frontend/Open2Work/android/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml
+frontend/Open2Work/android/app/build/intermediates/source_set_path_map/debug/file-map.txt
+frontend/Open2Work/android/app/build/outputs/logs/manifest-merger-debug-report.txt
+frontend/Open2Work/node_modules/react-native-gradle-plugin/.gradle/file-system.probe
+frontend/Open2Work/node_modules/react-native-gradle-plugin/.gradle/7.5.1/executionHistory/executionHistory.lock
+frontend/Open2Work/node_modules/react-native-gradle-plugin/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+node_modules
